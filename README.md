@@ -1,3 +1,2 @@
-Add content of table.
-Still need to add style and borders for cleanliness.
+Push content through model branch
 #donut_shop
