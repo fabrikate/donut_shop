@@ -7,9 +7,39 @@
 		<title>Top Pot Donut Metrics</title>
 	</head>
 	<body>
+
+		<section>
+			<p>Location Name</p>
+			<form>
+				<input id="storeLocationInput" name="store name" placeholder="Location Name" />
+			</form>
+		</section>
+
+		<section>
+			<p>Minimum Customers</p>
+			<form>
+				<input id="storeMinCustomersInput" name="minimum Customers" placeholder="Minimum Customers" />
+			</form>
+		</section>
+
+		<section>
+			<p>Maximum Customers</p>
+			<form>
+				<input id="storeMaxCustomersInput" name="maximum Customers" placeholder="Maximum Customers" />
+			</form>
+		</section>
+
+		<section>
+			<p>Average Donut per Customer</p>
+			<form>
+				<input  id="storeAvgDonutPerCustomerInput" name="Average Donut per Customer" placeholder="Average Donut per Customer" />
+			</form>
+				<button id="workButton" name="submit">Submit</button>
+		</section>
+
 		<p id="table-start">Top Pot Sales Metrics by location</p>
 		<p></p>
-		<table border="1" cellpadding="10px">
+		<table id="topPotMetrics" border="1" cellpadding="10px">
 			<tr>
 				<th>Location</th>
 				<td>7 AM</td>
@@ -25,11 +55,11 @@
 				<td>5 PM</td>
 				<th>Total</th>
 			</tr>
-			<tr id="downtown"><th>Downtown</th></tr>
+			<!-- <tr id="downtown"><th>Downtown</th></tr>
 			<tr id="capitolHill"><th>Capitol Hill</th></tr>
 			<tr id="southLakeUnion"><th>South Lake Union</th></tr>
 			<tr id="wedgewood"><th>Wedgewood</th></tr>
-			<tr id="ballard"><th>Ballard</th></tr>
+			<tr id="ballard"><th>Ballard</th></tr> -->
 	<script type="text/javascript" src="donut_shop.js"></script>
 	</body>
 </html>
