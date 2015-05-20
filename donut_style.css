@@ -1,5 +1,5 @@
 body {
-  font-family: 'The Girl Next Door';
+  font-family: 'The Girl Next Door', 'Verdana';
   font-size: 20px;
   color: #A49A87; padding: 16px;
   background-color: #49404F;
@@ -28,4 +28,3 @@ input, button {
 #workButton: {
   color: #644D52;
 }
-
