@@ -9,7 +9,7 @@ var StoreLocation = function(locationName, minCustomers, maxCustomers, avgDonutP
 			return Math.floor(Math.random() * (this.maxCustomers - this.minCustomers +1) + this.minCustomers)
 		}
 	this.calculateDonutPerHour = function(){
-		return (this.randomCustomerPerHour() * this.avgDonutPerCustomer);
+		return Math.floor(this.randomCustomerPerHour() * this.avgDonutPerCustomer + 1);
 	}
 	this.calculateDonutPerDay = function(){
 		return (this.randomCustomerPerHour() * this.avgDonutPerCustomer) * hoursOperation;
@@ -75,3 +75,4 @@ var getButton = document.getElementById('workButton');
 getButton.addEventListener('click', render, false);
 
 //Colin helped with table input and loops, Tristan helped with button and form connecting.
+//Marcel B. with styling
