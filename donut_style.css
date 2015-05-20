@@ -1,0 +1,30 @@
+body {
+  font-family: 'The Girl Next Door', 'Verdana';
+  font-size: 20px;
+  color: #A49A87; padding: 16px;
+  background-color: #49404F;
+}
+
+table {
+  border-style: solid;
+  text-align: left;
+  background-color: #596166;
+  -moz-box-shadow: 5px 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px 5px black;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+input, button {
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #332532;
+}
+
+#workButton:hover {
+  background-color: #644D52;
+}
+#workButton:active {
+  background-color: #FF974F;
+}
+#workButton: {
+  color: #644D52;
+}
