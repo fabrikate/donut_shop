@@ -7,54 +7,63 @@
 		<title>Top Pot Donut Metrics</title>
 		<link href="donut_style.css" type="text/css" rel="stylesheet"/>
 		<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-
-		<section>
-			<p>Location Name</p>
-			<form>
-				<input id="storeLocationInput" name="store name" placeholder="Location Name" />
-			</form>
-		</section>
-
-		<section>
-			<p>Minimum Customers</p>
-			<form>
-				<input id="storeMinCustomersInput" name="minimum Customers" placeholder="Minimum Customers" />
-			</form>
-		</section>
-
-		<section>
-			<p>Maximum Customers</p>
-			<form>
-				<input id="storeMaxCustomersInput" name="maximum Customers" placeholder="Maximum Customers" />
-			</form>
-		</section>
-
-		<section>
-			<p>Average Donut per Customer</p>
-			<form>
-				<input  id="storeAvgDonutPerCustomerInput" name="Average Donut per Customer" placeholder="Average Donut per Customer" />
-			</form>
-				<button id="workButton" name="submit">Submit</button>
-		</section>
-
-		<p id="table-start">Top Pot Sales Metrics by location</p>
+		<p id="headTitle">Top Pot Sales Metrics by Location</p>
+		<table id="inputFields">
+			<tr>
+				<td>
+					<p>Location</p>
+				</td>
+				<td>
+					<form>
+						<input id="storeLocationInput" name="store name" placeholder="Location Name" />
+					</form>
+				</td>
+				<td>
+					<p>Minimum Customers</p>
+				</td>
+				<td>
+					<form>
+						<input id="storeMinCustomersInput" name="minimum Customers" placeholder="Minimum Customers" />
+					</form>
+				</td>
+				<td>
+					<p>Maximum Customers</p>
+				</td>
+				<td>
+					<form>
+						<input id="storeMaxCustomersInput" name="maximum Customers" placeholder="Maximum Customers" />
+					</form>
+				</td>
+				<td>
+					<p>Average Donut / Customer</p>
+				</td>
+				<td>
+					<form>
+						<input  id="storeAvgDonutPerCustomerInput" name="Average Donut per Customer" placeholder="Average Donut per 		Customer" />
+					</form>
+				</td>
+				<td>
+					<button id="workButton" name="submit">Submit</button>
+				<td>
+		</table>
 		<p></p>
-		<table id="topPotMetrics">
+		<table id="topPotMetrics" align="center">
 			<tr>
 				<th>Location</th>
 				<td>7 AM</td>
-				<td>8 AM</td>
-				<td>9 AM</td>
-				<td>10 AM</td>
-				<td>11 AM</td>
+				<td>8 </td>
+				<td>9 </td>
+				<td>10 </td>
+				<td>11 </td>
 				<td>12 PM</td>
-				<td>1 PM</td>
-				<td>2 PM</td>
-				<td>3 PM</td>
-				<td>4 PM</td>
-				<td>5 PM</td>
+				<td>1 </td>
+				<td>2 </td>
+				<td>3 </td>
+				<td>4 </td>
+				<td>5 </td>
 				<th>Total</th>
 			</tr>
 			<!-- <tr id="downtown"><th>Downtown</th></tr>
@@ -66,4 +75,3 @@
 	</body>
 </html>
 
-<!-- Marcel -->

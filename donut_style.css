@@ -1,30 +1,55 @@
 body {
-  font-family: 'The Girl Next Door', 'Verdana';
-  font-size: 20px;
-  color: #A49A87; padding: 16px;
-  background-color: #49404F;
+  font-family: 'The Girl Next Door';
+  font-size: 16px;
+  color: #474538; padding: 16px;
+  background-color: #C8E8C7;
 }
 
-table {
+#headTitle {
+  font-family: 'The Girl Next Door';
+  font-size: 36px;
+  text-align: center;
+  background-color:#A4DEAB;
   border-style: solid;
-  text-align: left;
-  background-color: #596166;
-  -moz-box-shadow: 5px 5px 5px 5px black;
-  -webkit-box-shadow: 5px 5px 5px 5px black;
+  border-color: #85CC9F;
+}
+
+#inputFields{
+  font-size: 14px;
+  font-family: 'Marcellus';
+  background-color:#A4DEAB;
+  border-style: solid;
+  border-color: #85CC9F;
+}
+
+
+#topPotMetrics {
+  font-family: 'Marcellus';
+  font-size: 20px;
+  padding: 5px;
+  border-style: solid;
+  text-align: right;
+  background-color: #85CC9F;
+  -moz-box-shadow: 5px 5px 5px 5px #85CC9F;
+  -webkit-box-shadow: 5px 5px 5px 5px #85CC9F;
   box-shadow: 5px 5px 5px 5px black;
+}
+
+#topPotMetrics tr:nth-child(even) {
+  background-color: #71AD87;
 }
 
 input, button {
   padding: 6px 12px 6px 12px;
-  border: 1px solid #332532;
+  border: 1px solid #FFF6C9;
 }
 
 #workButton:hover {
-  background-color: #644D52;
+  background-color: #499E8D;
 }
 #workButton:active {
-  background-color: #FF974F;
+  background-color: #FFCCC9;
 }
 #workButton: {
-  color: #644D52;
+  color: #FFCCC9;
 }
