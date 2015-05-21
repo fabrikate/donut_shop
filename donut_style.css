@@ -1,13 +1,36 @@
+.topPotGraphic {
+  z-index: -50;
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.topPotGraphic img {
+  position: absolute;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
 body {
   font-family: 'The Girl Next Door';
   font-size: 16px;
   color: #474538; padding: 16px;
-  background-color: #C8E8C7;
+  width: 90%;
+  margin: 0 auto;
 }
 
 #headTitle {
   font-family: 'The Girl Next Door';
-  font-size: 36px;
+  font-size: 42px;
   text-align: center;
   background-color:#A4DEAB;
   border-style: solid;
@@ -15,7 +38,12 @@ body {
 }
 
 #inputFields{
-  font-size: 14px;
+  width: 15%;
+  float: left;
+  overflow: auto;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
   font-family: 'Marcellus';
   background-color:#A4DEAB;
   border-style: solid;
@@ -24,6 +52,8 @@ body {
 
 
 #topPotMetrics {
+  float: right;
+  width: 60%;
   font-family: 'Marcellus';
   font-size: 20px;
   padding: 5px;
@@ -37,6 +67,10 @@ body {
 
 #topPotMetrics tr:nth-child(even) {
   background-color: #71AD87;
+}
+
+#topPotMetrics tr:hover{
+  background-color: #FFCCC9;
 }
 
 input, button {
@@ -53,3 +87,16 @@ input, button {
 #workButton: {
   color: #FFCCC9;
 }
+
+blockquote{
+  position: relative;
+  top: 2px;
+  left: 450px;
+  width: 55%;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
