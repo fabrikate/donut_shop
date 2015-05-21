@@ -10,46 +10,28 @@
 		<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<p id="headTitle">Top Pot Sales Metrics by Location</p>
-		<table id="inputFields">
-			<tr>
-				<td>
-					<p>Location</p>
-				</td>
-				<td>
-					<form>
-						<input id="storeLocationInput" name="store name" placeholder="Location Name" />
-					</form>
-				</td>
-				<td>
-					<p>Minimum Customers</p>
-				</td>
-				<td>
-					<form>
-						<input id="storeMinCustomersInput" name="minimum Customers" placeholder="Minimum Customers" />
-					</form>
-				</td>
-				<td>
-					<p>Maximum Customers</p>
-				</td>
-				<td>
-					<form>
-						<input id="storeMaxCustomersInput" name="maximum Customers" placeholder="Maximum Customers" />
-					</form>
-				</td>
-				<td>
-					<p>Average Donut / Customer</p>
-				</td>
-				<td>
-					<form>
-						<input  id="storeAvgDonutPerCustomerInput" name="Average Donut per Customer" placeholder="Average Donut per 		Customer" />
-					</form>
-				</td>
-				<td>
-					<button id="workButton" name="submit">Submit</button>
-				<td>
-		</table>
-		<p></p>
+		<section class="topPotGraphic"><img src="donutGraphic.jpg"></section>
+		<p id="headTitle">Sales Metrics by Location</p>
+		<section id="inputFields">
+			<p>Location</p>
+			<form>
+				<input id="storeLocationInput" name="store name" placeholder="Location Name" />
+			</form>
+			<p>Minimum Customers</p>
+			<form>
+				<input id="storeMinCustomersInput" name="minimum Customers" placeholder="Minimum Customers" />
+			</form>
+			<p>Maximum Customers</p>
+			<form>
+				<input id="storeMaxCustomersInput" name="maximum Customers" placeholder="Maximum Customers" />
+			</form>
+			<p>Average Donut / Customer</p>
+			<form>
+				<input  id="storeAvgDonutPerCustomerInput" name="Average Donut per Customer" placeholder="Average Donut per 	Customer" />
+			</form>
+			<button id="workButton" name="submit">Submit</button>
+		</section>
+		<blockquote class="quote">'Donuts. Is there anything they can't do?' -Matt Groening</blockquote>
 		<table id="topPotMetrics" align="center">
 			<tr>
 				<th>Location</th>
@@ -66,11 +48,6 @@
 				<td>5 </td>
 				<th>Total</th>
 			</tr>
-			<!-- <tr id="downtown"><th>Downtown</th></tr>
-			<tr id="capitolHill"><th>Capitol Hill</th></tr>
-			<tr id="southLakeUnion"><th>South Lake Union</th></tr>
-			<tr id="wedgewood"><th>Wedgewood</th></tr>
-			<tr id="ballard"><th>Ballard</th></tr> -->
 	<script type="text/javascript" src="donut_shop.js"></script>
 	</body>
 </html>
