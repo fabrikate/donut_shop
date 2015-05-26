@@ -74,5 +74,4 @@ var render = function(){
 var getButton = document.getElementById('workButton');
 getButton.addEventListener('click', render, false);
 
-//Colin helped with table input and loops, Tristan helped with button and form connecting.
-//Marcel Buncio with styling
+//Thanks to Colin, Tristan and Marcel for their help!

@@ -19,7 +19,6 @@
   min-height: 50%;
 }
 
-
 body {
   font-family: 'The Girl Next Door';
   font-size: 16px;
@@ -49,7 +48,6 @@ body {
   border-style: solid;
   border-color: #85CC9F;
 }
-
 
 #topPotMetrics {
   float: right;
@@ -98,5 +96,37 @@ blockquote{
   padding: 10px;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
+}
+
+#delightDonut{
+  float: right;
+  opacity: .8;
+  margin-top: 15px;
+  border-radius: 5px;
+  transition property: border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+#delightDonut:hover {
+  border-radius: 60%;
+  animation-name: slide;
+  animation: slide 2s linear;
+}
+
+@keyframes slide {
+  0%{
+    left: 0;
+    top: 0;
+  }
+  50%{
+    left: 244px;
+    top: 100px;
+  }
+  100%{
+    left: 488px;
+    top: 0px;
+  }
+  }
 }
 
